@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.background {
+  height: 40vh;
+  background-image: url(./assets/images/background-pattern-desktop.svg);
+}
+
+.card {
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardBG {
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: hsla(0, 0%, 22%, 0.421) 1px 1px 37px 0.01px;
+}
+
+h1 {
+  display: flex;
+  font-family: "Work Sans";
+  padding-top: 0.75em;
+  padding-left: 1em;
+  font-size: 3em;
+  margin-bottom: 3rem;
+}
+
+h1 img {
+  padding-right: 0.4em;
+}
+
+h1,
+section {
+  font-family: "Work Sans";
+  color: hsl(292, 42%, 14%);
+}
+
+article {
+  font-family: "Work Sans";
+  color: hsl(292, 42%, 14%);
+  opacity: 0.6;
+  max-width: 533px;
+  text-align: left;
+  margin-left: 2em;
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+section {
+  display: flex;
+  font-weight: 600;
+  text-indent: 2em;
+  word-spacing: 0.05rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+section img {
+  margin-left: auto;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+#plus {
+  cursor: pointer;
+}
+
+article {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
